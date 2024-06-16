@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchInput{
+    width: 45%;
+    height: 50px;
+    padding: 8px 2px;
+    background: #032541;
+    caret-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+.card{
+    text-align: center;
+    padding: 80px 0;
+}
+.imgposter{
+    padding-bottom: 15px ;
+}

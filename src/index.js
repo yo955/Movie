@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// react router
+import { BrowserRouter as Router } from 'react-router-dom';
+//Context Function
+import SearchInputvalue from './context/SearchContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+        <SearchInputvalue>
+         <App/>
+        </SearchInputvalue>
+    </Router>
   </React.StrictMode>
 );
 

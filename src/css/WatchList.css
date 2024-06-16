@@ -1,0 +1,26 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+    padding: 20px;
+   
+}
+.image{
+    position: relative;
+}
+.icons{
+    position: absolute;
+    bottom: 26px;
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    transition: .5s;
+    }
+    .icons i{
+        color: #fff;
+    }
+    .image:hover .icons{
+    display: flex;
+    
+}

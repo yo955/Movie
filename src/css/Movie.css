@@ -1,0 +1,19 @@
+.btnWatched{
+    padding: 7px ;
+    margin: 5px;
+   
+}
+.btnWatched button{
+    height: 30px;
+    display: inline-block;
+    background: #21d07a;
+    border-radius: 5px; 
+    padding: 5px;
+    margin: 0 20px;
+    color: #fff;
+    border: none;
+}
+.btnWatched  button:disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
